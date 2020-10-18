@@ -1,0 +1,55 @@
+.projects-section {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    border: 1px solid #148df0;
+    /* box-sizing: border-box; */
+    border-radius: 23px;
+    width: 85vw;
+    margin-top: 5%;
+}
+
+.projects-section .title {
+    color: #148df0;
+    font-size: 6vh;
+    margin-left: 8vw;
+    margin-bottom: 5vh;
+    margin-top: 8vh;
+}
+
+.projects-section .content {
+    color: white;
+    font-size: 3.8vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 426px) {
+    .projects-section {
+          border: none;
+    }
+
+    .projects-section .title {
+          margin-left: 0;
+    }
+
+    .projects-section .content {
+          color: white;
+          font-size: 2.5vh;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 5vh;
+    }
+}
+
+@media(min-width:1600px) {
+    .container.projects-section {
+          max-width: 85vw;
+    }
+}
+
+@media(min-width:2500px) {
+    .container.projects-section {
+          max-width: 85vw;
+    }
+}
