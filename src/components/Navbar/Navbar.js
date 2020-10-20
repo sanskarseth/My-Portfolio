@@ -1,31 +1,31 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
-import { Link,NavLink } from "react-router-dom";
+import styled from 'styled-components';
+import Burger from "./Burger/Burger";
+import {Link} from 'react-router-dom';
+
+
+const Nav = styled.nav`
+
+  width: 100%;
+  height: 55px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    padding: 20px 0;
+  }
+`;
 
 const Navbar = () => {
     return ( 
-        <div>
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-                <Link className="navbar-brand" to="/home">
-                    Logo
-                </Link>
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/about_me">About Me</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/my_works">My Works</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/register">Contact Me</NavLink>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <Nav>
+            <Link className="nav-link logo" to="/home">
+                LOGO
+            </Link>
+            <Burger />
+        </Nav>
      );
 }
  
