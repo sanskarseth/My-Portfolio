@@ -1,55 +1,39 @@
-.skills-section {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    border: 1px solid #148df0;
-    /* box-sizing: border-box; */
-    border-radius: 23px;
-    width: 85vw;
-    margin-top: 5%;
+.mb-pro {
+	margin-bottom: 5rem;
 }
 
-.skills-section .title {
-    color: #148df0;
-    font-size: 6vh;
-    margin-left: 8vw;
-    margin-bottom: 5vh;
-    margin-top: 8vh;
+.main-area2-pro {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: white;
+	background-color: rgba(59, 69, 107, 0.342);
+	padding: 2rem;
+	margin-top: 5%;
+	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	border: solid 5px rgba(59, 69, 107, 0.007);
+	justify-content: center;
+	align-items: center;
 }
 
-.skills-section .content {
-    color: white;
-    font-size: 3.8vh;
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-bottom: 5vh;
+.main-area2-pro .title {
+	color: #148df0;
+	font-size: 6vh;
 }
 
-@media screen and (max-width: 426px) {
-    .skills-section {
-          border: none;
-    }
-
-    .skills-section .title {
-          margin-left: 0;
-    }
-
-    .skills-section .content {
-          color: white;
-          font-size: 2.5vh;
-          margin-left: 0;
-          margin-right: 0;
-          margin-bottom: 5vh;
-    }
+.main-grid.pro {
+	justify-content: center;
 }
 
-@media(min-width:1600px) {
-    .container.skills-section {
-          max-width: 85vw;
-    }
+.logo-collection {
+	justify-content: center;
+	padding-top: 35px;
+	padding-bottom: 10px;
 }
 
-@media(min-width:2500px) {
-    .container.skills-section {
-          max-width: 85vw;
-    }
+.logo {
+	height: 4.5em;
+	width: auto;
+	margin: 0px 1px;
+	padding-left: 5px;
+	padding-right: 5px;
 }

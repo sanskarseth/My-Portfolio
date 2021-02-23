@@ -1,8 +1,4 @@
-.mb {
-	margin-bottom: 5rem;
-}
-
-.main-area2 {
+.main-area {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	color: white;
@@ -11,15 +7,14 @@
 	margin-top: 5%;
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 	border: solid 5px rgba(59, 69, 107, 0.007);
-	justify-content: center;
-	align-items: center;
 }
 
-.main-area2 .title {
+.main-area .title {
 	color: #148df0;
 	font-size: 6vh;
 }
 
-.main-grid {
-	justify-content: center;
+.main-area .content {
+	color: white;
+	font-size: 3.8vh;
 }

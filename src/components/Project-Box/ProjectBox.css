@@ -1,0 +1,19 @@
+.main-areaa {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: white;
+	padding: 2rem;
+	margin-top: 5%;
+	border-radius: 20px;
+	border: solid 2px rgba(142, 153, 196, 0.555);
+}
+
+.main-areaa .title {
+	color: #148df0;
+	font-size: 6vh;
+}
+
+.main-areaa .content {
+	color: white;
+	font-size: 3.8vh;
+}

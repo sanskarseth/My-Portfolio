@@ -1,12 +1,8 @@
-.lander-img{
-      width:auto;
-      height: auto;
+.lander-img {
+	width: auto;
+	height: auto;
 }
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #000818;
-}
-hr {
-    border-width: 1.5px;
-    border-color:white;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #09090c;
 }
