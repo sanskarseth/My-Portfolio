@@ -3,9 +3,7 @@
 }
 
 .main-area2-pro {
-	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	color: white;
 	background-color: rgba(59, 69, 107, 0.342);
 	padding: 2rem;
 	margin-top: 5%;
@@ -16,8 +14,9 @@
 }
 
 .main-area2-pro .title {
-	color: #148df0;
+	color: whitesmoke;
 	font-size: 6vh;
+	font-family: 'Stick', sans-serif;
 }
 
 .main-grid.pro {
@@ -31,7 +30,15 @@
 }
 
 .logo {
-	height: 4.5em;
+	height: 3.5em;
+	width: auto;
+	margin: 0px 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.logo2 {
+	height: 3em;
 	width: auto;
 	margin: 0px 1px;
 	padding-left: 5px;

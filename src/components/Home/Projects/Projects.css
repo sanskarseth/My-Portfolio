@@ -5,7 +5,6 @@
 .main-area2 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	color: white;
 	background-color: rgba(59, 69, 107, 0.342);
 	padding: 2rem;
 	margin-top: 5%;
@@ -16,8 +15,9 @@
 }
 
 .main-area2 .title {
-	color: #148df0;
+	color: whitesmoke;
 	font-size: 6vh;
+	font-family: 'Stick', sans-serif;
 }
 
 .main-grid {
