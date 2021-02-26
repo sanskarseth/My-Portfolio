@@ -19,7 +19,7 @@ const Nav = styled.nav`
 const Navbar = () => {
 	return (
 		<Nav>
-			<Link className="nav-link logoo" to="/home">
+			<Link className="nav-link logoo" to="/">
 				_sanSkar_
 			</Link>
 			{/* <Burger /> */}
