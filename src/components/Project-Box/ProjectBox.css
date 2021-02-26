@@ -1,14 +1,15 @@
 .main-areaa {
 	text-align: center;
 	color: white;
-	padding: 2rem;
+	padding: 1rem;
 	margin-top: 5%;
 	border-radius: 20px;
 	border: 1px solid #829fd9;
-	min-height: 270px;
+	min-height: 250px;
 }
 
 .main-areaa .title .headi {
+	margin-top: 100px;
 	font-size: 4vh;
 	font-family: 'Reggae One', cursive;
 }

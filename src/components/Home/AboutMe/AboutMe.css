@@ -9,14 +9,13 @@
 
 .name {
 	font-size: 7vw;
-	font-family: 'Reggae One', cursive;
-	color: #f20505;
+	/* font-family: 'Reggae One', cursive; */
+	color: #f25ca2;
 }
 
 .main-area .title {
 	color: whitesmoke;
 	font-size: 6vh;
-	font-family: 'Stick', sans-serif;
 }
 
 .main-area .content {
