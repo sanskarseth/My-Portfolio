@@ -1,5 +1,7 @@
 .mb {
 	margin-bottom: 5rem;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .main-area2 {
@@ -12,6 +14,7 @@
 	border: solid 5px rgba(59, 69, 107, 0.007);
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 6rem;
 }
 
 .main-area2 .title {

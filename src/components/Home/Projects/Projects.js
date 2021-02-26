@@ -10,6 +10,7 @@ const Projects = () => {
 		<Container className="mb">
 			<div className="main-area2">
 				<div className="title">Projects</div>
+
 				<Grid container spacing={3} className="main-grid">
 					{projectList.map((project) => (
 						<Grid item sm={12} md={6} key={project.title}>

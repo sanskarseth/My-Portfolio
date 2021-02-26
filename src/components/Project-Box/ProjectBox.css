@@ -5,7 +5,9 @@
 	margin-top: 5%;
 	border-radius: 20px;
 	border: 1px solid #829fd9;
-	min-height: 250px;
+	/* min-height: 250px;
+	max-height: 300px; */
+	height: 100%;
 }
 
 .main-areaa .title .headi {
