@@ -1,0 +1,26 @@
+.main-area {
+	text-align: center;
+	background-color: rgba(59, 69, 107, 0.342);
+	padding: 2rem;
+	margin-top: 5%;
+	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	border: solid 5px rgba(59, 69, 107, 0.007);
+}
+
+.name {
+	font-size: 7vw;
+	font-family: 'Reggae One', cursive;
+	color: #f20505;
+}
+
+.main-area .title {
+	color: whitesmoke;
+	font-size: 6vh;
+	font-family: 'Stick', sans-serif;
+}
+
+.main-area .content {
+	color: #d4dbf5;
+	font-size: 3.8vh;
+	font-family: 'Akaya Telivigala', cursive;
+}

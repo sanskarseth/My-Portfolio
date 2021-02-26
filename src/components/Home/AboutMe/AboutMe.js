@@ -1,18 +1,26 @@
 import React from 'react';
-import ContentBox from '../../content-box/ContentBox';
+import Grid from '@material-ui/core/Grid';
+import Container from '@material-ui/core/Container';
 import './AboutMe.css';
 
 const AboutMe = () => {
-	const title = 'About Me';
-	const content = [
-		'Hey! I am Sanskar',
-		<br />,
-		'Currently a pre-final year student from IIIT Ranchi.',
-		<br />,
-		'I love solving problems. I am a web developer and acompetitive coder.',
-	];
-
-	return <ContentBox title={title} content={content} />;
+	// const title = 'About Me';
+	return (
+		<Container>
+			<Grid item xs={12}>
+				<div className="main-area">
+					{/* <div className="title">{title}</div> */}
+					<div className="content">
+						Hey, there! I am
+						<div className="name"> Sanskar Seth</div>
+						Junior @ IIIT Ranchi
+						<br />
+						Coder 📝 | Developer 💻 | Open Source ❤️ | Learner 😀
+					</div>
+				</div>
+			</Grid>
+		</Container>
+	);
 };
 
 export default AboutMe;

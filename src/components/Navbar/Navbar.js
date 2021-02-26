@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 import styled from 'styled-components';
-import Burger from './Burger/Burger';
+// import Burger from './Burger/Burger';
 import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
@@ -19,10 +19,10 @@ const Nav = styled.nav`
 const Navbar = () => {
 	return (
 		<Nav>
-			<Link className="nav-link logo" to="/home">
-				LOGO
+			<Link className="nav-link logoo" to="/home">
+				_sanSkar_
 			</Link>
-			<Burger />
+			{/* <Burger /> */}
 		</Nav>
 	);
 };

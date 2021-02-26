@@ -1,7 +1,7 @@
 var canvas = document.getElementById('canvas');
 canvas.width = canvas.offsetWidth;
 canvas.height = canvas.offsetHeight;
-console.log(canvas.width, canvas.height);
+// console.log(canvas.width, canvas.height);
 
 var c = canvas.getContext('2d');
 
@@ -14,7 +14,6 @@ var MaxRadius = 5;
 var MinRadius = 1;
 
 var colorArray = ['#66A141', '#9DBF63', '#DEE68E', '#FFF9B5', '#DE570B'];
-// var colorArray = ['lime'];
 
 window.addEventListener('mousemove', function (event) {
 	mouse.x = event.x;
@@ -67,7 +66,7 @@ class Circle {
 
 var circleArray = [];
 
-for (var i = 0; i < 250; i++) {
+for (var i = 0; i < 200; i++) {
 	var radius = 1;
 
 	var x = Math.random() * (innerWidth - 2 * radius) + radius;

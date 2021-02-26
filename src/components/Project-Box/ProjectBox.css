@@ -1,19 +1,55 @@
 .main-areaa {
-	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	color: white;
 	padding: 2rem;
 	margin-top: 5%;
 	border-radius: 20px;
-	border: solid 2px rgba(142, 153, 196, 0.555);
+	border: 1px solid #829fd9;
+	min-height: 270px;
 }
 
-.main-areaa .title {
-	color: #148df0;
-	font-size: 6vh;
+.main-areaa .title .headi {
+	font-size: 4vh;
+	font-family: 'Reggae One', cursive;
 }
 
 .main-areaa .content {
-	color: white;
-	font-size: 3.8vh;
+	color: #d4dbf5;
+	font-size: 3vh;
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.main-areaa .source {
+	justify-content: center;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.main-areaa .source .client .data {
+	display: inline;
+}
+
+.main-areaa .source .server .data {
+	display: inline;
+}
+
+.main-areaa .source .client {
+	border: 1px solid #829fd94b;
+	border-radius: 8px;
+	display: inline;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+.main-areaa .source .server {
+	border: 1px solid #829fd94b;
+	border-radius: 8px;
+	margin: 0.5em;
+	display: inline;
+	padding: 0.5em;
+}
+
+.iconn {
+	height: 2em;
+	width: auto;
 }

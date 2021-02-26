@@ -62,6 +62,8 @@
 .mail-link-tag {
 	color: #d4dbf5;
 	position: relative;
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 20px;
 }
 
 .mail-link-tag:before {
@@ -85,10 +87,12 @@
 .fcaption-link {
 	display: inline;
 	transition: 0s background-color;
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 19px;
 }
 .fcaption-link :hover {
 	text-decoration: none;
-	color: rgba(245, 245, 245, 0.733);
+	color: rgba(245, 245, 245, 0.562);
 	transition-delay: 0.03s;
 }
 
@@ -102,6 +106,7 @@
 	margin-top: -0.8rem;
 	word-spacing: 1px;
 	color: #d4dbf5;
+	font-family: 'Akaya Telivigala', cursive;
 }
 
 hr {
