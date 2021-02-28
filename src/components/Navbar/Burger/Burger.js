@@ -44,6 +44,7 @@ const Burger = () => {
 				<div />
 				<div />
 				<div />
+				<div />
 			</StyledBurger>
 			<RightNav open={open} />
 		</React.Fragment>
