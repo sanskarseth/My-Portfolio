@@ -28,7 +28,7 @@ export const projectList = [
 		title: 'Portfolio',
 		about:
 			'This is my porfolio website describing about myself made with React.',
-		link: 'https://sanskarseth.github.io/',
+		link: 'https://sanskarseth.github.io/My-Portfolio/',
 		color: '#5C73F2',
 		client: 'https://github.com/sanskarseth/sanskarseth.github.io',
 	},
