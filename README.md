@@ -4,14 +4,14 @@ This is my portfolio website with background as particle animation made using ca
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install GetiT-Client.
+Use the package manager [npm](https://www.npmjs.com/) to install.
 
 ```bash
 npm install
 ```
 ## Running
 
-Use the package manager [npm](https://www.npmjs.com/) to run GetiT-Client.
+Use the package manager [npm](https://www.npmjs.com/) to run.
 
 ```bash
 npm start
