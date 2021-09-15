@@ -51,11 +51,11 @@ const Footer = () => {
 						className="mail-link-tag"
 						to="#"
 						onClick={(e) => {
-							window.location = 'mailto:sethsanskar@gmail.com';
+							window.location = 'mailto:sanskar.iiitr@gmail.com';
 							e.preventDefault();
 						}}
 					>
-						sethsanskar@gmail.com
+						sanskar.iiitr@gmail.com
 					</Link>
 				</div>
 			</div>
