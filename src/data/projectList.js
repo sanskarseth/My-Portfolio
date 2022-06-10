@@ -12,7 +12,7 @@ export const projectList = [
 		title: 'ShoppeR',
 		about:
 			'ShoppeR is an e-commerce website for selling items in the college which is made with MERN Stack.',
-		link: 'https://www.iiitrshops.tech/',
+		link: 'https://iiitrshops.netlify.app/',
 		color: '#eaa221',
 		client: 'https://github.com/sanskarseth/ShoppeR',
 		server: 'https://github.com/sanskarseth/ShoppeR-Server',
