@@ -1,5 +1,5 @@
 export const myDetails = [
-    'Upcoming Software Engineer at Adobe',
+    'Software Engineer at Adobe',
     'Former Software Engineer Intern at Infoedge',
     'Former Software Engineer Intern at Zeotap',
     'Undergrad, CSE - 2022',
